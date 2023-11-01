@@ -14,7 +14,7 @@ const IndividualRecipePage = (props) => {
   useEffect(() => {
     const getIndividualRecipe = async () => {
       const response =
-        await axios.get(`https://themealdb.com/api/json/v1/1/lookup.php?i=${id}
+      await axios.get(`https://themealdb.com/api/json/v1/1/lookup.php?i=${id}
       `);
       setIndividualRecipe(response.data.meals[0]);
     };
