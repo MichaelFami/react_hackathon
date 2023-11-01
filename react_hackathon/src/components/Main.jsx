@@ -2,6 +2,7 @@
 
 import { Route, Routes } from 'react-router-dom'
 import Home from './Home'
+import IndividualRecipe from './IndividualRecipe'
 // import Categories from './Categories'
 
 const Main=()=>{
@@ -15,8 +16,8 @@ return(
       {/* <Route path="/categories/:id" element={<StarShipPage />}/> */}
       {/* <Route  path="/categorydetails" element={<CategoryDetails  />} /> */}
       {/* <Route path="/categories/:id" element={<StarShipPage />}/> */}
-      {/* <Route  path="/individualrecipe" element={<IndividualRecipe  />} /> */}
-      {/* <Route path="/categories/:id" element={<StarShipPage />}/> */}
+      <Route  path="/individualrecipe/:id" element={<IndividualRecipe  />} />
+      
 
       </Routes>
     </div>
