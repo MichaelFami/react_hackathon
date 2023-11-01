@@ -29,7 +29,7 @@ const IndividualRecipePage = (props) => {
       <h3>Instructions:</h3>
       <p>{individualRecipe.strInstructions}</p>
 
-      <Link to="/individualRecipe">Back to Listings</Link>
+      <Link to={`/categories/${individualRecipe.strCategory}`}>Back to Category Listings</Link>
     </div>
   ) : null;
 };
