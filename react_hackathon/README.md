@@ -1,6 +1,6 @@
 # Crave- React + Vite Recipe Application
 
-<img src="https://imgur.com/a/rvClwgc">
+<img src="./src/assets/ChefAntoni.jpg">
 
 Looking for a snack?
 
