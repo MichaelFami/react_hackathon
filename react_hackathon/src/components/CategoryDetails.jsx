@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
+
 import axios from 'axios'
 
 export default function CategoryDetails() {
@@ -20,8 +21,8 @@ export default function CategoryDetails() {
     return category ? (
         <div>
              {category.map((meal) => (
-            <Link to = {`/individualrecipe/${category.idMeal}`}>
-                <div key = {meal.idMeal}>
+            <Link to = {`/individualrecipe/${meal.idMeal}`} key = {meal.idMeal}>
+                <div>
                     <p>{meal.strMeal}</p>
                     <img src={meal.strMealThumb}></img>
                 </div> 
