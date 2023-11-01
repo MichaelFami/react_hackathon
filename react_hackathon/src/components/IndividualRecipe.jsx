@@ -25,6 +25,7 @@ const IndividualRecipePage = (props) => {
 
   return individualRecipe ? (
     <div className="detail">
+      <img src={individualRecipe.strMealThumb} />
       <h2>{individualRecipe.strMeal}</h2>
       <h3>Instructions:</h3>
       <p>{individualRecipe.strInstructions}</p>
