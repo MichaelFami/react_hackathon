@@ -19,5 +19,11 @@ An Epicurean, devoted to pursuing and enjoying the pleasures of food, whatever m
 - Tantalizing CSS styling<br>
 - Deployed through Surge for your viewing pleasure<br>
 
-<h2>Surge Deployment Link</h2>
-<a href="https://INSERTCRAVEDOMAIN.surge.sh">Crave</a>
+<h2>Deployment Link</h2>
+<a href="https://whatdoyoucrave.netlify.app/">Crave</a>
+
+<h2>Contributors</h2>
+<a href="https://github.com/BlenTesfaye">Blen T.</a>
+<a href="https://github.com/MichaelFami">Michael F.</a>
+<a href="https://github.com/srhshaw">Shanda S.</a>
+
